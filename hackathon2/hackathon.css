@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    /* background-color: black;  */
+    background-image: 
+     
+     url("hackbg2.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: black;
+    
+}
+
+.nav-logo{
+    height: 50px;
+    padding: 1rem;
+    /* width : 100%; */
+    display: inline-block;
+    margin-left: 1rem;
+}
+.navbar{
+    height : 70px;
+    background-color:black;
+    color : white;
+    display: flex;
+    position : fixed;
+}
+.border{
+    border : 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+#top{
+    display:flex;
+    gap:3rem;
+    margin-left: 800px;
+    padding-top: 1rem;
+    
+}
+
+/* #top ul li a{
+    display: flex;
+    gap : 3rem;
+    margin-left: 50rem;
+    margin-top: 1.5rem;
+    text-decoration: none;
+}
+#top ul li a::after{
+         
+    content:'';
+    width: 0%;
+    height: 2px;
+    background-color: aqua;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}                     ; */
+
+.key_line{
+    margin-left:5rem;
+    padding-top: 7rem ;
+    height: 250px;
+    width: 850px;
+    font-size:6rem;
+    /* font-family: verdana,Geneva, Tahoma, sans-serif; */
+    display: inline-block;
+}
+/* .key_line{
+    color : transparent;
+    -webkit-text-stroke: 3px white;
+    position : relative;
+}
+.key_line::before{
+    /* content: "Where citizens protect each other"; */
+    /* position : absolute;
+    width : 0%;
+    height : 100%;
+    overflow : hidden;
+    color: white;
+    border-right: 8px solid white;
+    transition: 1s ease-in-out;
+}
+.key_line:hover::before{
+    width : 100%;
+    filter : drop-shadow(0 0 25px white);
+} */ 
+.info{
+    height: 130px;
+    width : 700px;
+    padding-left: 5rem ;
+    font-size: 2rem;
+    display: inline-block;
+}
+video{
+    margin-left: 60%;
+    margin-top: 7rem;
+    display: inline-block;
+    margin-right: 5rem;
+}
+.first{
+    width: 100px;
+    gap : 5rem;
+    height: 500px;
+    display: flex;
+    flex-shrink:inherit;
+}
+.phone{
+    margin-left: 3rem;
+    padding-top: 400px;
+    /* background-color: aqua; */
+    height: 5rem ;
+ 
+}
+.emergency{
+    font-size: 3rem;
+    font-style: bold;
+}
+.national{
+    font-size: 2rem;
+    text-align : center;
+    background-color:crimson;
+    border-radius: 2rem;
+    height: 10rem;
+    width : 10rem;
+    box-shadow: 3px 3px 10px rgb(9, 9, 9);
+}
+.police,.ambulance,.fire,.trafficpolice,.womenhelpline,.womenhelpline_domestic,.disaster_medical,.road_accident,.earthquake,.child_abuse,.senior_citizen{
+    font-size: 2rem;
+    text-align : center;
+    /* padding-top: 1em; */
+    color : black;
+    background-color:coral;
+    border-radius: 2rem;
+    height: 10rem;
+    width : 10rem;
+    opacity: 1;
+    box-shadow: 3px 3px 10px rgb(9, 9, 9);
+}
+/* (.police,.ambulance,.fire,.trafficpolice,.womenhelpline,.womenhelpline_domestic,.disaster_medical,.road_accident,.earthquake,.child_abuse,.senior_citizen):hover{
+     border: 3px solid green; 
+
+
+} */
+.police:hover{
+    opacity : ;
+    /* box-sizing: border-box;
+    border: 1rem solid green; */
+}
+/* .ambulance{
+    font-size: 2rem;
+    text-align : center;
+    background-color: cadetblue;
+    border-radius: 2rem;
+    height: 10rem;
+    width : 10rem;
+}
+.fire{
+    font-size: 2rem;
+    text-align : center;
+    background-color: cadetblue;
+    border-radius: 2rem;
+    height: 10rem;
+    width : 10rem;
+} */
+.number{
+    padding-top: 2rem;
+    display: flex;
+    gap : 3rem;
+    color : white;
+}
+.number2{
+    padding-top: 2rem;
+    display: flex;
+    gap : 4rem;
+}
+.issues{
+    background-color: rgb(181, 10, 101); 
+    height : 12rem;
+    width : 100%;
+    margin-top: 30rem;
+    margin-left: 2rem;
+    /* /* border-radius: 50%; */
+     display: flex; 
+    gap : 3rem; */
+    }
+.citizen,.women,.child,.disaster,.violence{
+    height : 12rem;
+    width : 12rem;
+    border: 5px solid black;
+    background-color: brown;
+     border-radius: 50%; 
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 2rem;
+     opacity : 0.7;
+     box-shadow: 3px 3px 10px rgb(9, 9, 9);
+
+}
+.citizen:hover{
+    opacity : 1;
+    height : 13rem;
+    width  : 13rem;
+    font-style: bold;
+    cursor: pointer;
+}
+.women:hover{
+    opacity : 1;
+    height : 13rem;
+    width  : 13rem;
+    font-style: bold;
+    cursor: pointer;
+}
+.child:hover{
+    opacity : 1;
+    height : 13rem;
+    width  : 13rem;
+    font-style: bold;
+    cursor: pointer;
+}
+.disaster:hover{
+    opacity : 1.5;
+    height : 13rem;
+    width  : 13rem;
+    font-style: bold;
+    cursor: pointer;
+}
+.violence:hover{
+    opacity : 1.5;
+    height : 13rem;
+    width  : 13rem;
+    font-style: bold;
+    cursor: pointer;
+}
+button{
+    border: none;
+}
+.first_aid{
+    background-color: black;
+    color:white;
+    height: 10rem;
+    width:20rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    font-size: 2rem;
+    margin-left: 30rem;
+    box-shadow: 3px 3px 10px rgb(9, 9, 9)
+}
+iframe{
+    border-radius: 2rem;
+    gap:2rem;
+
+}
+.webinar{
+    margin-left: 2rem;
+}
